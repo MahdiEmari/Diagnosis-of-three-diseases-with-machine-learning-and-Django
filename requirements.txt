@@ -1,0 +1,11 @@
+Django
+tensorflow
+opencv-python
+keras
+numpy
+pandas
+scikit-learn
+pickle5
+matplotlib
+seaborn
+
