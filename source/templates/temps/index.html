@@ -1,0 +1,372 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Health Cognizant</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href={% static 'assets/img/favicon.png' %} rel="icon">
+  <link href={% static 'assets/img/apple-touch-icon.png' %} rel="apple-touch-icon">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+
+
+  <link href={% static 'assets/img/favicon.png' %} rel="icon">
+  <link href={% static 'assets/img/apple-touch-icon.png' %} rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+>>>>>>> 32bc1f3398982125ff6450a10bd32e1f09c713c3
+  <link href={% static 'assets/vendor/fontawesome-free/css/all.min.css' %} rel="stylesheet">
+  <link href={% static 'assets/vendor/animate.css/animate.min.css' %} rel="stylesheet">
+  <link href={% static 'assets/vendor/aos/aos.css' %} rel="stylesheet">
+  <link href={% static 'assets/vendor/bootstrap/css/bootstrap.min.css'%} rel="stylesheet">
+  <link href={% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css'%} rel="stylesheet">
+  <link href={% static 'assets/vendor/boxicons/css/boxicons.min.css' %} rel="stylesheet">
+  <link href={% static 'assets/vendor/glightbox/css/glightbox.min.css' %} rel="stylesheet">
+  <link href={% static 'assets/vendor/swiper/swiper-bundle.min.css' %} rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href={% static 'assets/css/style.css' %} rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="temps/index.html" class="logo me-auto"><div class="icon"><i class="fas fa-heartbeat"></i>Health Cognizant </div></a>
+
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+
+  </header>
+
+  </header>
+
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)"> -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active" >
+          <img src={% static 'assets/img/slide/slide-2.jpg' %} alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src={% static 'assets/img/slide/slide-1.jpg' %} alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src={% static 'assets/img/slide/slide-2.jpg' %} alt="">
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  <main id="main">
+    <br>
+    <br>
+      <div class="section-title">
+          <h2>Service</h2>
+      </div>
+
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <!-- <a href="{% url 'vdiabetes' %}"> -->
+            <div class="col-md-7 col-lg-4 d-flex align-items-stretch mb-6 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                <h4 class="title"><a href="{% url 'vdiabetes' %}">Diabetes</a></h4>
+                <p class="description">Diabetes doesn't define you, but managing it can empower you to live your best life.</p>
+              </div>
+            </div>
+          <!-- </a> -->
+          
+          <!-- <a href="{% url 'vbreastCancer' %}"> -->
+            <div class="col-md-7 col-lg-4 d-flex align-items-stretch mb-6 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="fas fa-dna"></i></div>
+                <h4 class="title"><a href="{% url 'vbreastCancer' %}">Breast Cancer</a></h4>
+                <p class="description">Breast cancer doesn't discriminate, but early detection can make all the difference.</p>
+              </div>
+            </div>
+          <!-- </a> -->
+
+          <!-- <a href="{% url 'vparkinsons'%}"> -->
+            <div class="col-md-7 col-lg-4 d-flex align-items-stretch mb-6 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="fas fa-pills"></i></div>
+                <h4 class="title"><a href="{% url 'vparkinsons'%}">Parkinson</a></h4>
+                <p class="description">Parkinson's may shake things up, but with the right treatment and support, you can keep living life to the fullest.</p>
+              </div>
+            </div>
+          <!-- </a> -->
+          
+          <!-- <a href="{% url 'vpneumonia' %}"> -->
+            <div class="col-md-7 col-lg-4 d-flex align-items-stretch mb-6 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="fas fa-thermometer"></i></div>
+                <h4 class="title"><a href="{% url 'vpneumonia' %}">Pneumonia</a></h4>
+                <p class="description">Don't let pneumonia take your breath away - know the symptoms and seek treatment early.</p>
+              </div>
+            </div>
+          <!-- </a> -->
+
+          <!-- <a href="{% url 'vheartDiseases' %}"> -->
+            <div class="col-md-7 col-lg-4 d-flex align-items-stretch mb-6 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon"><i class="fas fa-dna"></i></div>
+                <h4 class="title"><a href="{% url 'vheartDiseases' %}">Heart disease</a></h4>
+                <p class="description">Don't skip a beat when it comes to heart health - take action to prevent heart disease.</p>
+              </div>
+            </div>
+          <!-- </a> -->
+
+        </div>
+
+      </div>
+    </section>
+
+    
+
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Welcome to our website! The disease diagnosis site was created using machine learning models in order to provide improved and accurate services in the field of diagnosis of various diseases. Our team is interested in mathematics, computer science, and medicine, and uses its capabilities in machine learning to improve algorithms and disease prediction models.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src={% static 'assets/img/about1.jpg' %} class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Shahid Shamsipour Technical and Vocational College - Tehran</h3>
+            <p class="fst-italic">
+              Our team is led by Mehdi Amari, a final semester bachelor's student at Shahid Shamsipur Faculty of Computer Science. Our team members seek to improve diagnostic processes in medical sciences by providing innovative solutions and advanced research.
+              Make sure that our team is ready to provide quality services and accurate information in the field of disease diagnosis using machine learning models. Trust us to help improve medical services and improve community health with your cooperation.
+              If you have any questions or suggestions, we'd love to hear from you. Use the Contact Us page to contact us.
+              Thank you for your kind attention, Disease Diagnosis with Machine Learning Models team
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Diagnosis of Parkinson's disease using data of sound indicators</li>
+              <li><i class="bi bi-check-circle"></i> Diagnosing diabetes using individual profile data and clustering indices and...</li>
+              <li><i class="bi bi-check-circle"></i> Diagnosis of heart failure using clinical and demographic data.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    
+
+
+    <section id="departments" class="departments">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Departments</h2>
+          <p>The various diseases department of our site is recognized as a reliable source of information in the field of various diseases, including Parkinson's, diabetes and heart failure. Using the latest data and medical research, this department provides accurate and up-to-date information on the symptoms, diagnosis and treatment of any disease. Our team of specialists and doctors are ready to answer your questions and provide better medical services in the field of various diseases. Stay with us to help improve your health with up-to-date information and quality services</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                  <h4>Cardiology</h4>
+                  <p>Improvement of heart failure with expert team and up-to-date information</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                  <h4>Neurology</h4>
+                  <p>Information, diagnosis, and treatment in the Department of Neuroscience</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                  <h4>Hepatology</h4>
+                  <p>Expert knowledge and superior medical services</p>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                  <h4>Pediatrics</h4>
+                  <p>Care, attention and treatment for children's healthy future</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <h3>Cardiology</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src={% static 'assets/img/departments-1.jpg' %} alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <h3>Neurology</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src={% static 'assets/img/departments-2.jpg' %} alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <h3>Hepatology</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src={% static 'assets/img/departments-3.jpg' %} alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <h3>Pediatrics</h3>
+                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <img src={% static 'assets/img/departments-4.jpg' %} alt="" class="img-fluid">
+                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section id="contact" class="contact">
+      <div class="container">
+
+      
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Mehdi Emari , Bachelor's student in computer software, last semester, Shahid Shamsipour Technical and Vocational College (Mahdi_e.m@yahoo.com)</p>
+        </div>
+
+      </div>
+<<<<<<< HEAD
+    </section>
+
+  </main>
+
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Medicio</h3>
+              <p>
+                damavand Street <br>
+                th 535022, tehran<br><br>
+                <strong>Phone:</strong>09022424978 <br>
+                <strong>Email:</strong> mahdi_e.m@yahoo.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+<<<<<<< HEAD
+  </footer>
+=======
+  </footer><!-- End Footer -->
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src={% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}></script>
+  <script src={% static 'assets/vendor/aos/aos.js' %}></script>
+  <script src={% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}></script>
+  <script src={% static 'assets/vendor/glightbox/js/glightbox.min.js' %}></script>
+  <script src={% static 'assets/vendor/swiper/swiper-bundle.min.js' %}></script>
+
+
+
+  <script src={% static 'assets/js/main.js' %}></script>
+
+</body>
+
+</html>
